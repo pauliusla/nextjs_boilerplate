@@ -5,4 +5,5 @@
     "sidebar content"
     "footer footer";
   grid-template-columns: 1fr 3fr;
+  margin: 0;
 }

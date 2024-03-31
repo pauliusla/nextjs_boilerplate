@@ -2,7 +2,7 @@ import modules from "./Navigation.module.css";
 
 export const Navigation = () => {
   return (
-    <nav className={modules.navigation_container}>
+    <nav className={modules.navigationContainer}>
       <a className={modules.button} href="/">
         Home
       </a>

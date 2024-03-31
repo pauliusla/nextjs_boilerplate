@@ -1,4 +1,4 @@
-.navigation_container {
+.navigationContainer {
   background-color: blue;
   grid-area: nav;
 }
@@ -12,7 +12,8 @@
   grid-area: content;
 }
 
-.side_navigation_container {
+.sideNavigationContainer {
   grid-area: sidebar;
   background-color: blue;
+  height: 100vh;
 }
