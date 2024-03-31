@@ -1,11 +1,7 @@
 .navigationContainer {
   background-color: blue;
   grid-area: nav;
-}
-
-.button {
-  color: white;
-  text-decoration: none;
+  padding: 1rem;
 }
 
 .content {
@@ -16,4 +12,6 @@
   grid-area: sidebar;
   background-color: blue;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

@@ -1,0 +1,15 @@
+.button {
+  color: white;
+}
+
+.activeButton {
+  color: black;
+  background-color: white;
+}
+
+.container {
+  text-decoration: none;
+  font-size: large;
+  margin: 0 1rem 1rem 1rem;
+  place-self: center;
+}

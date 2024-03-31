@@ -1,14 +1,11 @@
+import { NavButton } from "@/components/NavButton/NavButton";
 import modules from "./Navigation.module.css";
 
-export const SideNavigation = () => {
+export const SideNavigation = (): JSX.Element => {
   return (
     <aside className={modules.sideNavigationContainer}>
-      <a className={modules.button} href="/">
-        Home
-      </a>
-      <a className={modules.button} href="/products">
-        Products
-      </a>
+      <NavButton active={true} path="/" text="Home" />
+      <NavButton path="/products" text="Products" />
     </aside>
   );
 };

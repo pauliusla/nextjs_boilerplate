@@ -1,14 +1,11 @@
+import { NavButton } from "@/components/NavButton/NavButton";
 import modules from "./Navigation.module.css";
 
 export const Navigation = () => {
   return (
     <nav className={modules.navigationContainer}>
-      <a className={modules.button} href="/">
-        Home
-      </a>
-      <a className={modules.button} href="/products">
-        Products
-      </a>
+      <NavButton path="/" text="Home" active={true} />
+      <NavButton path="/products" text="Products" />
     </nav>
   );
 };
