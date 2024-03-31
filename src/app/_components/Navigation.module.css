@@ -1,0 +1,18 @@
+.navigation_container {
+  background-color: blue;
+  grid-area: nav;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  grid-area: content;
+}
+
+.side_navigation_container {
+  grid-area: sidebar;
+  background-color: blue;
+}
