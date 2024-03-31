@@ -1,7 +1,7 @@
 import { NavButton } from "@/components/NavButton/NavButton";
 import modules from "./Navigation.module.css";
 
-export const Navigation = () => {
+export const Navigation = (): JSX.Element => {
   return (
     <nav className={modules.navigationContainer}>
       <NavButton path="/" text="Home" active={true} />

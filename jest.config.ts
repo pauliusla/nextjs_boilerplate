@@ -13,6 +13,9 @@ const config: Config = {
     "node",
   ],
   testEnvironment: "jsdom",
+  moduleNameMapper: {
+    "\\.(css|less)$": "identity-obj-proxy",
+  },
 };
 
 export default config;
