@@ -1,4 +1,4 @@
-import module from "./NavButton.module.css";
+import module from "./NavButton.module.scss";
 
 interface NavButton {
   text: string;

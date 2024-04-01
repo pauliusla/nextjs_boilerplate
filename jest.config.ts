@@ -14,7 +14,7 @@ const config: Config = {
   ],
   testEnvironment: "jsdom",
   moduleNameMapper: {
-    "\\.(css|less)$": "identity-obj-proxy",
+    "\\.(css|scss|less)$": "identity-obj-proxy",
   },
 };
 

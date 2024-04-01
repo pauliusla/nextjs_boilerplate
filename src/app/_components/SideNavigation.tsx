@@ -1,5 +1,5 @@
 import { NavButton } from "@/components/NavButton/NavButton";
-import modules from "./Navigation.module.css";
+import modules from "./Navigation.module.scss";
 
 export const SideNavigation = (): JSX.Element => {
   return (
