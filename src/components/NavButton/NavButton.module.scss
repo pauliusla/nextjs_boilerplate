@@ -1,10 +1,12 @@
+@import "../../app/variables.scss";
+
 .button {
-  color: white;
+  color: $primary-text;
 }
 
 .activeButton {
   color: black;
-  background-color: white;
+  background-color: $active-primary-text;
 }
 
 .container {
